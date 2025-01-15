@@ -88,16 +88,41 @@ Windows 10/11 Pro for Workstations
 ```bash
 NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
 ```
-Windows 10/11 Pro for Workstations ```bash N 9FNHH-K3HBT-3W4TD-6383H-6XYWF ```
-Windows 10/11 Pro Education 6TP4R-GNPTD-KYYHQ-7B7DP-J447Y
-Windows 10/11 Pro Education N YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
-Windows 10/11 Education NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
-Windows 10/11 Education N 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
-Windows 10/11 Enterprise NPPR9-FWDCX-D2C8J-H872K-2YT43
-Windows 10/11 Enterprise N DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
-Windows 10/11 Enterprise G YYVX9-NTFWV-6MDM3-9PT4T-4M68B
-Windows 10/11 Enterprise G N 44RPN-FTY23-9VTTB-MP9BX-T84FV
-
+Windows 10/11 Pro for Workstations
+```bash
+N 9FNHH-K3HBT-3W4TD-6383H-6XYWF
+ ```
+Windows 10/11 Pro Education
+```bash
+6TP4R-GNPTD-KYYHQ-7B7DP-J447Y
+```
+Windows 10/11 Pro Education
+```bash
+N YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
+```
+Windows 10/11 Education 
+```bash
+NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+```
+Windows 10/11 Education
+```bash
+N 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+```
+Windows 10/11 Enterprise
+```bash
+NPPR9-FWDCX-D2C8J-H872K-2YT43
+```
+Windows 10/11 Enterprise
+```bash
+N DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+```
+Windows 10/11 Enterprise
+```bashG YYVX9-NTFWV-6MDM3-9PT4T-4M68B
+```
+Windows 10/11 Enterprise
+```bash
+G N 44RPN-FTY23-9VTTB-MP9BX-T84FV
+```
 # Keys de Windows Server R2 2012
 
 Windows Server 2012 R2 Standard	D2N9P-3P6X9-2R39C-7RTCD-MDVJX
