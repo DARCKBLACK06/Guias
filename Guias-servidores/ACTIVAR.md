@@ -88,7 +88,7 @@ Windows 10/11 Pro for Workstations
 ```bash
 NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
 ```
-Windows 10/11 Pro for Workstations N 9FNHH-K3HBT-3W4TD-6383H-6XYWF
+Windows 10/11 Pro for Workstations ```bash N 9FNHH-K3HBT-3W4TD-6383H-6XYWF ```
 Windows 10/11 Pro Education 6TP4R-GNPTD-KYYHQ-7B7DP-J447Y
 Windows 10/11 Pro Education N YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
 Windows 10/11 Education NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
