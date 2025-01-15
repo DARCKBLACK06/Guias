@@ -53,17 +53,41 @@ Windows 10/11 Pro N
 MH37W--H47XK-V7XM9-C7227-GCQG-9
 ```
 Windows 10/11 Pro Education 
-```
+```bash
 6TP4R-GNPTD-KYYHQ-7B7OP-J447Y
 ```
-Windows 10/11 Pro Education N YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
-Windows 10/11 Education NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
-Windows 10/11 Education 2WH4N-BQGBV-H22JP-CT43Q-MDWWJ
-Windows 10/11 Enterprise NPPR9-FWDCX-D2CBJ-N872K-2YT43
-Windows 10/11 Enterprise N DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
-Windows 10/11 Pro W269N-WFGWX-YVC9B-4J6C9-T83GX
-Windows 10/11 Pro N MH37W-N47XK-V7XM9-C7227-GCQG9
-Windows 10/11 Pro for Workstations NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
+Windows 10/11 Pro Education
+```bash
+N YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
+```
+Windows 10/11 Education 
+```bash
+NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+```
+Windows 10/11 Education 
+```bash
+2WH4N-BQGBV-H22JP-CT43Q-MDWWJ
+```
+Windows 10/11 Enterprise
+```bash
+NPPR9-FWDCX-D2CBJ-N872K-2YT43
+```
+Windows 10/11 Enterprise 
+```bash
+N DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+```
+Windows 10/11 Pro 
+```bash
+W269N-WFGWX-YVC9B-4J6C9-T83GX
+```
+Windows 10/11 Pro 
+```bash
+N MH37W-N47XK-V7XM9-C7227-GCQG9
+```
+Windows 10/11 Pro for Workstations 
+```bash
+NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
+```
 Windows 10/11 Pro for Workstations N 9FNHH-K3HBT-3W4TD-6383H-6XYWF
 Windows 10/11 Pro Education 6TP4R-GNPTD-KYYHQ-7B7DP-J447Y
 Windows 10/11 Pro Education N YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
