@@ -18,16 +18,16 @@ slmgr /dlv
 ```bash
 DISM.EXE /Online /GET-TargetEditions
 ```
-Edición de destino : Education
-Edición de destino : ProfessionalCountrySpecific
-Edición de destino : ProfessionalEducation
-Edición de destino : ProfessionalSingleLanguage
-Edición de destino : ProfessionalWorkstation
-Edición de destino : Enterprise
-Edición de destino : IoTEnterprise
-Edición de destino : IoTEnterpriseK
-Edición de destino : ServerRdsh
-Edición de destino : CloudEdition
+- **Edición de destino**: Education
+- **Edición de destino** : ProfessionalCountrySpecific
+- **Edición de destino** : ProfessionalEducation
+- **Edición de destino** : ProfessionalSingleLanguage
+- **Edición de destino** : ProfessionalWorkstation
+- **Edición de destino** : Enterprise
+- **Edición de destino** : IoTEnterprise
+- **Edición de destino** : IoTEnterpriseK
+- **Edición de destino** : ServerRdsh
+- **Edición de destino** : CloudEdition
 
 # Convertir de version Home a Pro
 ```bash
