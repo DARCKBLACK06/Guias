@@ -1,7 +1,7 @@
-#Windows disponibles
-
+# Windows disponibles
+´´´bash
 DISM.EXE /Online /GET-TargetEditions
-
+´´´
 #Converteir de version Evaluation a Standar
 
 DISM /online /Set-Edition:ServerStandard /Productkey:N69G4-B89J2-4G8F4-WWYCC-J464C /AcceptEula
