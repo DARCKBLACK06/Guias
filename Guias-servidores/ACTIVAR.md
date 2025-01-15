@@ -1,23 +1,23 @@
 # Windows disponibles
-´´´bash
+```bash
 DISM.EXE /Online /GET-TargetEditions
-´´´
-#Converteir de version Evaluation a Standar
-
+```
+# Converteir de version Evaluation a Standar
+```bash
 DISM /online /Set-Edition:ServerStandard /Productkey:N69G4-B89J2-4G8F4-WWYCC-J464C /AcceptEula
-
-#Activacion de Windows Server 
-
-slmgr /ipk N69G4-B89J2-4G8F4-WWYCC-J464C <<-- Introducir la key que se usa arriba para la activacion 
+```
+# Activacion de Windows Server 
+```bash
+slmgr /ipk N69G4-B89J2-4G8F4-WWYCC-J464C 
 slmgr /skms kms.digiboy.ir
 slmgr /ato
 slmgr /dlv
-
+```
 
 # Windows 10 disponibles 
-
+```bash
 DISM.EXE /Online /GET-TargetEditions
-
+```
 Edición de destino : Education
 Edición de destino : ProfessionalCountrySpecific
 Edición de destino : ProfessionalEducation
@@ -29,23 +29,33 @@ Edición de destino : IoTEnterpriseK
 Edición de destino : ServerRdsh
 Edición de destino : CloudEdition
 
-#Convertir de version Home a Pro
-
+# Convertir de version Home a Pro
+```bash
 DISM /online /Set-Edition:Pro /Productkey:W269N-WFGWX-YVC9B-4J6C9-T83GX /AcceptEula
-
-#Activacion de Windows 10 Pro
-
-slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX <<-- Introducir la key que se usa arriba para la activacion
+```
+# Activacion de Windows 10 Pro
+```bash
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX 
 slmgr /skms kms.digiboy.ir
 slmgr /ato
 slmgr /dlv
+```
 
+# Keys de Windows 10/11
 
-#Keys de Windows 10/11
+Windows 10/11 Pro
+```bash
+W269N-WFGWX-YVC9B-4J6C9-T83GX
+```
 
-Windows 10/11 Pro W269N-WFGWX-YVC9B-4J6C9-T83GX
-Windows 10/11 Pro N MH37W--H47XK-V7XM9-C7227-GCQG-9
-Windows 10/11 Pro Education 6TP4R-GNPTD-KYYHQ-7B7OP-J447Y
+Windows 10/11 Pro N 
+```bash
+MH37W--H47XK-V7XM9-C7227-GCQG-9
+```
+Windows 10/11 Pro Education 
+```
+6TP4R-GNPTD-KYYHQ-7B7OP-J447Y
+```
 Windows 10/11 Pro Education N YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
 Windows 10/11 Education NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
 Windows 10/11 Education 2WH4N-BQGBV-H22JP-CT43Q-MDWWJ
