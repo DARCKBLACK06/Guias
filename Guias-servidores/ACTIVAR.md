@@ -117,7 +117,8 @@ Windows 10/11 Enterprise
 N DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
 ```
 Windows 10/11 Enterprise
-```bashG YYVX9-NTFWV-6MDM3-9PT4T-4M68B
+```bash
+G YYVX9-NTFWV-6MDM3-9PT4T-4M68B
 ```
 Windows 10/11 Enterprise
 ```bash
