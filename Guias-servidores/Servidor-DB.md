@@ -69,5 +69,11 @@ sudo firewall-cmd --reload
 ---
 
 ## 2. Configuración de PostgreSQL
+Instalación de postgres
 
-### Completar...
+
+AGREGAR REPOSITORIO DE POSTGRES
+```bash
+sudo dnf install
+https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdgredhat-repo-latest.noarch.rpm
+```
