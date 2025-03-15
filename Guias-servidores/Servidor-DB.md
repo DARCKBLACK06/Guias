@@ -74,6 +74,81 @@ Instalación de postgres
 
 AGREGAR REPOSITORIO DE POSTGRES
 ```bash
-sudo dnf install
-https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdgredhat-repo-latest.noarch.rpm
+sudo dnf install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdgredhat-repo-latest.noarch.rpm
 ```
+DESACTIVAR EL MODULO DE POSTGRES PARA TENER LA VERSION ACTUAL
+
+sudo dnf -qy module disable postgresql
+
+ACTUALIZAMOS
+
+sudo dnf update -y
+
+INSTALAMOS EL CLIENTE Y SERVIDOR DE POSTGRES
+
+sudo dnf install postgresql13 postgresql13-server
+
+INICAREMOS LA BASE DE DATOS
+
+systemctl enable postgresql-13 --now
+systemctl restart postgresql-13
+
+COMPROBAR EL STATUS 
+
+systemctl status postgresql-13
+
+CAMBIA LA CONTRASEÑA DE POSTGRES
+
+passwd postgres
+
+CAMBIAR USUARIO A POSTGRES
+
+su - postgres
+
+INICIAMOS POSTGRES
+
+psql
+
+CREAMOS U USUARIO Y CONTRASEÑA
+
+CREATE USER usuario WITH PASSWORD 'contrasena';
+
+CREAMOS LA BASE DE DATOS
+
+CREATE DATABASE nombre_de_la_base;
+
+AGREGAMOS EL USUARIO A LA BASE DE DATOS
+
+ALTER DATABASE nombre_de_la_base OWNER TO usuario;
+PARA SALIR
+
+\q
+
+CONFIGURACION DE LOS ARCHIVOS CONF
+
+usar editor de texto de su preferencia
+
+Ejemplo: nano /var/lib/pgsql/"version-instalada"/data/pg_hba.conf
+
+
+vi /var/lib/pgsql/13/data/pg_hba.conf
+modificar la liinea 86 si se desconoce su red poner en su lugar
+0.0.0.0/0 md5
+asi deberia de quedar
+host all all 0.0.0.0/0 md5
+
+vi /var/lib/pgsql/13/data/postgresql.conf
+descomentar la linea 60 y remplazar localhost por *
+listen_addresses = '*'
+Descomentar la linea 64 y la 65 si esta es comentada
+port = 5432
+max_connections = 100
+
+HABILITAR EN EL FIREWAL
+
+firewall-cmd --add-port=5432/tcp --permanent
+firewall-cmd --reload
+
+REINICIAR POSTGRES PARA APLICAR LOS CAMBIOS
+
+systemctl restart postgresql-13
