@@ -17,10 +17,11 @@ Para configurar servidores de bases de datos **MariaDB** y **PostgreSQL** en Alm
 > [!NOTE]
 > Es importante tener todos los paquetes actualizados.
 > [!TIP]
->
+> HOLA
 > [!CAUTION]
->
+> HOLA
 > [!WARNING]
+> HOLA
    ```bash
    sudo dnf install -y mariadb-server
    ```
