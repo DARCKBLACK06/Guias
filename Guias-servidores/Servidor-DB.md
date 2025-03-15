@@ -106,19 +106,19 @@ CAMBIAR USUARIO A POSTGRES
 su - postgres
  ```
 INICIAMOS POSTGRES
- ```bash
+ ```sql
 psql
  ```
 CREAMOS U USUARIO Y CONTRASEÑA
- ```bash
+ ```sql
 CREATE USER usuario WITH PASSWORD 'contrasena';
  ```
 CREAMOS LA BASE DE DATOS
- ```bash
+ ```sql
 CREATE DATABASE nombre_de_la_base;
  ```
 AGREGAMOS EL USUARIO A LA BASE DE DATOS
- ```bash
+ ```sql
 ALTER DATABASE nombre_de_la_base OWNER TO usuario;
  ```
 PARA SALIR
