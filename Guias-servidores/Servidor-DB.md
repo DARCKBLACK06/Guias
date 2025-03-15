@@ -14,7 +14,8 @@ Para configurar servidores de bases de datos **MariaDB** y **PostgreSQL** en Alm
    ```
 
 2. Instala el servidor **MariaDB**:
-
+> .[!NOTE].
+> Es importante tener todos los paquetes actualizados
    ```bash
    sudo dnf install -y mariadb-server
    ```
