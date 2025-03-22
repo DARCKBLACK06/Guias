@@ -59,16 +59,15 @@ sudo firewall-cmd --reload
 ```
 
 ### Paso 4: Inicia y habilita el servicio vsftpd
-1. Inicia el servicio **vsftpd**:
+1. Activa el servicio para que se inicie automáticamente al arrancar el sistema:
+
+   ```bash
+   sudo systemctl enable --now vsftpd
+   ```
+2. Inicia el servicio **vsftpd**:
 
    ```bash
    sudo systemctl start vsftpd
-   ```
-
-2. Activa el servicio para que se inicie automáticamente al arrancar el sistema:
-
-   ```bash
-   sudo systemctl enable vsftpd
    ```
 
 ### Paso 5: Prueba el servidor FTP
