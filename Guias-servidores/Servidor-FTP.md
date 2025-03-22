@@ -39,7 +39,7 @@ Para configurar un servidor FTP en AlmaLinux, puedes usar **vsftpd** (Very Secur
    - Restringe a los usuarios locales a sus directorios personales:
 
      ```ini
-     chroot_local_user=YES
+     chroot_local_user=NO
      ```
 
    - Opcionalmente, puedes habilitar conexiones anónimas (solo lectura) para el acceso público:
