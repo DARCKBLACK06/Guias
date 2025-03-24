@@ -41,6 +41,21 @@ Esto eliminará la entrada del otro sistema operativo y el GRUB.
 
 ---
 
+## 6. Eliminar Partición del otro sistema operativo
+Ejecutar las siguientes combinaciones con teclas:
+
+Tecla:
+```bash
+Windows + X 
+```
+### Esto desplegará una lista; seleccionaremos el apartado de Administración de discos.
+#### En la partición que hayamos asignado para el sistema operativo que deseemos eliminar, le daremos clic y presionaremos "Eliminar volumen".
+#### Luego, en la partición principal de Windows "C:", le daremos clic y seleccionaremos "Expandir". Asignaremos todo el espacio de la partición que borramos anteriormente y con eso habremos eliminado exitosamente otro sistema operativo.
+
+### Reiniciaremos la PC para comprobar que el sistema operativo se ha eliminado exitosamente junto con el GRUB.
+
+---
+
 # Pasos para comprobar la integridad y archivos dañados del disco
 (Próxima sección por completar)
 
