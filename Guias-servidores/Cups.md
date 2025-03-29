@@ -11,7 +11,7 @@ CUPS (Common Unix Printing System) es el sistema de impresión utilizado en la m
 Para instalar CUPS en el sistema, utilizamos el siguiente comando:
 
 ```bash
-sudo dnf install cups
+sudo dnf install cups cups-pdf
 ```
 
 Este comando descarga e instala los paquetes necesarios para el servicio de impresión.
