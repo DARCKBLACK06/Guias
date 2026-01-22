@@ -40,6 +40,10 @@ slmgr /skms kms.digiboy.ir
 slmgr /ato
 slmgr /dlv
 ```
+# Activar Office 365 
+```
+irm https://get.activated.win | iex
+```
 
 # Keys de Windows 10/11
 
@@ -182,6 +186,7 @@ Windows Server 2008 HPC	RCTX3-KWVHP-BR6TB-RB6DM-6X7HP
 Windows Server 2008 Datacenter	7M67G-PC374-GR742-YH8V4-TCBY3
 Windows Server 2008 Datacenter sin Hyper-V 22XQ2-VRXRG-P8D42-K34TD-G3QQC
 Windows Server 2008 for Itanium-Based Systems 4DWFP-JF3DJ-B7DTH-78FJB-PDRHK
+
 
 
 
